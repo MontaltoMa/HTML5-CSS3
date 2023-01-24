@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, cyan, darkblue);
+}
+
+h1{
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+div{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.767);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    border-radius: 8px;
+}
+
+input{
+    padding: 16px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+button{
+    width: 100%;
+    cursor: pointer;
+    background-color: aqua;
+    padding:16px;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color:blue;
+}
+
+a{
+    color: white;
+}

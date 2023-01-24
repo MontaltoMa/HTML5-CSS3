@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: rgb(10, 169, 218);
+      }
+    </style>
+    <title>Imagens</title>
+  </head>
+  <body>
+    <h1>Brincanco com Imagens</h1>
+    <picture>
+      <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png" />
+      <source
+        media="(max-width: 1050px)"
+        srcset="foto-m.png"
+        type="image/png"
+      />
+      <img src="foto-g.png" alt="A imagen flexível funciona" />
+    </picture>
+
+    <h1>Reproduzindo àudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+      <source src="guanacast-33.mp3" type="audio/mpeg" />
+      <source src="guanacast-33.mp3" type="audio/ogg" />
+      <source src="guanacast-33.mp3" type="audio/wav" />
+      <p>
+        Infelizmente seu navegador não consegue reproduzir áudio.
+        <a href="guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a>
+      </p>
+    </audio>
+    <audio preload="auto" autoplay controls loop>
+      <source
+        src="rae sremmurd - this could be us (tradução).mp3"
+        type="audio/mpeg"
+      />
+      <source
+        src="rae sremmurd - this could be us (tradução).mp3"
+        type="audio/ogg"
+      />
+      <source
+        src="rae sremmurd - this could be us (tradução).mp3"
+        type="audio/wav"
+      />
+    </audio>
+  </body>
+</html>

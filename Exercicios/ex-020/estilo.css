@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    font: 1em Arial, Helvetica, sans-serif;
+    background-color: peachpuff;
+}
+
+header#caixa {
+    background-color:snow;
+    width: 1000px;
+    margin: auto;
+    padding: 1px 10px;
+    /* sombra aqui */
+}
